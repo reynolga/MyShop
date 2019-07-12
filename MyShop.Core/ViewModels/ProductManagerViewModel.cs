@@ -7,7 +7,7 @@ using MyShop.Core.Models;
 
 namespace MyShop.Core.ViewModels
 {
-   public class ProductManangerViewModel
+   public class ProductManagerViewModel
    {
       public Product  Product { get; set; }
       public IEnumerable<ProductCategory> ProductCategories { get; set; }
