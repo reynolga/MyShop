@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -25,6 +26,7 @@
                   <li>@Html.ActionLink("Product Admin", "Index", "ProductManager")</li>
                   <li>@Html.ActionLink("Category Admin", "Index", "ProductCategoryManager")</li>
                </ul>
+
                @Html.Partial("_LoginPartial")
                @{
                   Html.RenderAction("BasketSummary", "Basket");
