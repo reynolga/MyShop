@@ -9,7 +9,8 @@ using MyShop.DataAccess.InMemory;
 
 namespace MyShop.WebUI.Controllers
 {
-    public class ProductCategoryManagerController : Controller
+   [Authorize(Roles = "Admin")]
+   public class ProductCategoryManagerController : Controller
     {
       
       IRepository<ProductCategory> context;
